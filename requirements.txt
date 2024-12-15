@@ -1,0 +1,10 @@
+PyPDF2
+langchain
+streamlit
+langchain_groq
+langchain_core
+pydantic
+langchain_huggingface
+pinecone_text
+langchain_community
+pinecone
