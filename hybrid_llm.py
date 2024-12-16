@@ -9,7 +9,7 @@ from pydantic import BaseModel
 # import nltk
 # nltk.download('punkt_tab')
 
-pinecone_api_key="e6d17400-b5c0-4dca-8015-5f4c59ffaf80"
+pinecone_api_key=""     # PUT YOUR OWN PINECONE API KET 
 
 index_name="hybrid-database"
 pc=Pinecone(api_key=pinecone_api_key)
@@ -26,7 +26,7 @@ llm=ChatGroq(
     # model="llama-3.2-90b-text-preview",
     # model="llama-3.1-70b-versatile",
     model="gemma2-9b-it",
-    api_key="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",
+    api_key="",              # PUT YOUR OWN GROQ API KEY
     temperature=0)
 
 
